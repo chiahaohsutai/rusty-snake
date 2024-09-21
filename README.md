@@ -1,6 +1,8 @@
-# Snake
+# Snake :video_game: :snake:
 
 Implementation of the game Snake built using `Rust`'s `macroquad` crate.
+
+<img width="350" alt="Screenshot 2024-09-21 at 6 37 28 PM" src="https://github.com/user-attachments/assets/2433b10a-d892-432b-a7ca-4fb01e4452ef">
 
 ## Installation
 
@@ -10,7 +12,7 @@ You need `Rust` intalled in your system with the `Cargo` package manager.
 * In your terminal under the project root run: `cargo run`.
 * Enjoy!
 
-## Rules
+## Rules and Features
 
 Movement:
 * The snake moves continuously in one direction, and the player can change the direction using arrow keys (up, down, left, right) or WASD.
@@ -30,7 +32,8 @@ Avoiding Collisions:
 Speed Increase:
 * Each time you eact food the game speed increases (but its capped at a maximum speed).
 
-Controls:
+## Controls
+
 * `Q` for quitting the game.
 * `Esc` for quitting the GUI (closing the application).
 * `WASD` or arrow keys for moving the snake.
